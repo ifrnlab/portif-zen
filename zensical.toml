@@ -24,6 +24,9 @@ site_description = "Portfólio de aprendizagem da discipina {SIGLA}."
 # Read more: https://zensical.org/docs/setup/basics/#site_author
 site_author = "{AUTOR}"
 
+repo_url = "https://github.com/portif/portif-zen"
+edit_uri = "edit/main/docs/"
+
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
@@ -122,13 +125,13 @@ features = [
     # will generate an edit button for the page. This works for common
     # repository hosting services.
     # https://zensical.org/docs/setup/repository/#code-actions
-    #"content.action.edit",
+    "content.action.edit",
 
     # If you have a repository configured and turn feature this on, Zensical
     # will generate a button that allows the user to view the Markdown
     # code for the current page.
     # https://zensical.org/docs/setup/repository/#code-actions
-    #"content.action.view",
+    "content.action.view",
 
     # Code annotations allow you to add an icon with a tooltip to your
     # code blocks to provide explanations at crucial points.
@@ -295,6 +298,10 @@ toggle.name = "Alternar para o modo claro"
 #[project.theme.icon]
 #logo = "lucide/smile"
 #repo = "lucide/smile"
+
+[project.theme.icon]
+edit = "material/pencil"
+view = "material/eye"
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
