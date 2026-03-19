@@ -24,7 +24,7 @@ site_description = "Portfólio de aprendizagem da discipina {SIGLA}."
 # Read more: https://zensical.org/docs/setup/basics/#site_author
 site_author = "{AUTOR}"
 
-repo_url = "https://github.com/portif/portif-zen"
+repo_url = "https://github.com/ifrnlab/portif-zen"
 edit_uri = "edit/main/docs/"
 
 # The site_url is the canonical URL for your site. When building online
